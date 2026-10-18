@@ -1,0 +1,8 @@
+ids_ips: fw_perimeter
+fw_internal: ids_ips
+srv_web: fw_perimeter
+srv_db: fw_internal
+srv_mirror: fw_internal
+srv_backup: fw_internal
+pc_sede_a: r_sede_a
+pc_sede_b: r_sede_b

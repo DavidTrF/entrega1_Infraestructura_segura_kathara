@@ -1,0 +1,7 @@
+ip addr add 172.16.10.10/24 dev eth0
+ip link set eth0 up
+ip route add default via 172.16.10.1
+
+#levantamos un servicio web en el puerto 80 para probar
+python3 -m http.server 80 &
+

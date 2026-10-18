@@ -1,0 +1,11 @@
+# Archivos temporales de Kathará y Docker
+.kathara/
+*.log
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Archivos del sistema y respaldos
+.DS_Store
+*~
+*.swp
